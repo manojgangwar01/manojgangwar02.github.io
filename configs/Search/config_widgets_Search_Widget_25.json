@@ -1,0 +1,184 @@
+{
+  "allPlaceholder": "",
+  "showInfoWindowOnSelect": true,
+  "sources": [
+    {
+      "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+      "name": "ArcGIS location search",
+      "singleLineFieldName": "SingleLine",
+      "placeholder": "Find address or place",
+      "countryCode": "AU",
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "searchInCurrentMapExtent": false,
+      "enableLocalSearch": true,
+      "localSearchMinScale": 300000,
+      "localSearchDistance": 50000,
+      "radiusUnit": "meter",
+      "type": "locator"
+    },
+    {
+      "layerId": "EEArea16_3751",
+      "url": "https://services.arcgis.com/Gbs1D7TkFBVkx0Nz/arcgis/rest/services/EEArea16/FeatureServer/9",
+      "name": "Column",
+      "placeholder": "Plant Number or Asset Number",
+      "searchFields": [
+        "Plant_Number",
+        "ASSET_NUM"
+      ],
+      "displayField": "Plant_Number",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 10,
+      "maxResults": 10,
+      "type": "query"
+    },
+    {
+      "layerId": "EEArea16_5656",
+      "url": "https://services.arcgis.com/Gbs1D7TkFBVkx0Nz/arcgis/rest/services/EEArea16/FeatureServer/5",
+      "name": "Distribution Substation",
+      "placeholder": "Plant Number or Asset Number",
+      "searchFields": [
+        "Plant_Number",
+        "ASSET_NUM"
+      ],
+      "displayField": "Plant_Number",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 10,
+      "maxResults": 10,
+      "type": "query"
+    },
+    {
+      "layerId": "EEArea16_7627",
+      "url": "https://services.arcgis.com/Gbs1D7TkFBVkx0Nz/arcgis/rest/services/EEArea16/FeatureServer/4",
+      "name": "HV Switching Station",
+      "placeholder": "Asset Number",
+      "searchFields": [
+        "ASSET_NUM"
+      ],
+      "displayField": "ASSET_NUM",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "EEArea16_4443",
+      "url": "https://services.arcgis.com/Gbs1D7TkFBVkx0Nz/arcgis/rest/services/EEArea16/FeatureServer/8",
+      "name": "Pillar",
+      "placeholder": "Plant Number or Asset Number",
+      "searchFields": [
+        "PLANT_NO",
+        "ASSET_NUM"
+      ],
+      "displayField": "PLANT_NO",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "EEArea16_7507",
+      "url": "https://services.arcgis.com/Gbs1D7TkFBVkx0Nz/arcgis/rest/services/EEArea16/FeatureServer/7",
+      "name": "Pole",
+      "placeholder": "Plant Number or Asset Number",
+      "searchFields": [
+        "Plant_Number",
+        "ASSET_NUM"
+      ],
+      "displayField": "Plant_Number",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 10,
+      "maxResults": 10,
+      "type": "query"
+    },
+    {
+      "layerId": "EEArea16_1463",
+      "url": "https://services.arcgis.com/Gbs1D7TkFBVkx0Nz/arcgis/rest/services/EEArea16/FeatureServer/6",
+      "name": "Streetlight Luminaire",
+      "placeholder": "Plant Number or Asset Number",
+      "searchFields": [
+        "Plant_Number",
+        "ASSET_NUM"
+      ],
+      "displayField": "Plant_Number",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 12,
+      "maxResults": 12,
+      "type": "query"
+    },
+    {
+      "layerId": "EEArea16_8152",
+      "url": "https://services.arcgis.com/Gbs1D7TkFBVkx0Nz/arcgis/rest/services/EEArea16/FeatureServer/3",
+      "name": "Zone Substation",
+      "placeholder": "Plant Number or Subst. Name",
+      "searchFields": [
+        "SUBSTATION_NAME",
+        "Plant_Number"
+      ],
+      "displayField": "SUBSTATION_NAME",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 10,
+      "maxResults": 10,
+      "type": "query"
+    },
+    {
+      "layerId": "EEArea16_3136",
+      "url": "https://services.arcgis.com/Gbs1D7TkFBVkx0Nz/arcgis/rest/services/EEArea16/FeatureServer/1",
+      "name": "TR Substation",
+      "placeholder": "Asset Number or Subst. Name",
+      "searchFields": [
+        "SUBSTATION_NAME",
+        "ASSET_NUM"
+      ],
+      "displayField": "SUBSTATION_NAME",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    },
+    {
+      "layerId": "EEArea16_4586",
+      "url": "https://services.arcgis.com/Gbs1D7TkFBVkx0Nz/arcgis/rest/services/EEArea16/FeatureServer/2",
+      "name": "TR Switching Station",
+      "placeholder": "Asset Number or Site Name",
+      "searchFields": [
+        "SITE_NAME",
+        "ASSET_NUM"
+      ],
+      "displayField": "SITE_NAME",
+      "exactMatch": false,
+      "searchInCurrentMapExtent": false,
+      "panToScale": false,
+      "zoomScale": null,
+      "maxSuggestions": 6,
+      "maxResults": 6,
+      "type": "query"
+    }
+  ]
+}

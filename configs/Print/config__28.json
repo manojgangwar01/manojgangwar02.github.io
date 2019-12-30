@@ -1,0 +1,9 @@
+{
+  "serviceURL": "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+  "defaultTitle": "Endeavour Energy - ASP ArcGIS Portal",
+  "defaultAuthor": "Network Performance & Reporting",
+  "defaultCopyright": "",
+  "defaultFormat": "PDF",
+  "defaultLayout": "A4 Landscape",
+  "copyrightEditable": false
+}

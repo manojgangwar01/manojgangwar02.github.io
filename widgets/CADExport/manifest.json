@@ -1,0 +1,10 @@
+{
+    "name": "CADExport",
+    "platform": "HTML",
+    "version": "1.0.0",
+    "wabVersion": "1.0",
+    "author" : "EE with the help of ESRI edraw widget",
+    "description": "Enhanced CAD Export widget for WebApp Builder for Arcgis.",
+    "copyright": "© MAGIS NC",
+    "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

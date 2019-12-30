@@ -1,0 +1,11 @@
+{
+  "overviewMap": {
+    "visible": false,
+    "attachTo": "bottom-right",
+    "maximizeButton": true,
+    "baseLayer": {
+      "url": "",
+      "type": "baseMap"
+    }
+  }
+}
